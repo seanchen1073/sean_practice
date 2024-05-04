@@ -4,7 +4,7 @@
   "description": "- run 'poetry install' to install necessary packages.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss -i ./src/tailwind/style.css -o ./static/styles/style.css --watch"
   },
   "keywords": [],
   "author": "",
